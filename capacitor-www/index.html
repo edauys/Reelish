@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1A1614" />
+    <title>Reelish</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        margin: 0;
+        padding: 1.5rem;
+        line-height: 1.55;
+        color: #f4e8d8;
+        background: #1a1614;
+      }
+      a {
+        color: #c9a962;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      code {
+        font-size: 0.9em;
+        background: #2e2824;
+        padding: 0.15rem 0.35rem;
+        border-radius: 0.35rem;
+      }
+      .card {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 1.25rem 1.5rem;
+        border-radius: 1rem;
+        border: 1px solid #3d3530;
+        background: #242019;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <p><strong>Capacitor stub only</strong> — the native WebView is not loading your Next.js app.</p>
+      <p>
+        Point the shell at your dev server: set <code>CAPACITOR_SERVER_URL=http://&lt;LAN-IP&gt;:3000</code>, run
+        <code>npm run dev -- --hostname 0.0.0.0</code>, then <code>npx cap sync ios</code> and rebuild in Xcode.
+      </p>
+      <p>See <code>docs/CAPACITOR.md</code>. When <code>server.url</code> is set, you get the full styled Reelish UI from Next.</p>
+    </div>
+  </body>
+</html>
